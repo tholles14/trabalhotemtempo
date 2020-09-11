@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+
+.navbar{
+    position: fixed;
+    
+    background-color: gray;
+    width: 100%;
+    
+    padding: 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(61, 144, 223);
+
+    
+}
+.navlogo{
+    display: none;
+}
+.navbar img{
+    width: 30px;
+    margin-left: 100%;
+}
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu .pa a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 11px;
+    text-align: center;
+    border-left: 1px solid white;
+}
+.navbarcelular{
+    display: none;
+}
+.pa{
+    display: flex;
+    flex-direction: column;
+}
+.pa img{
+    width: 20px;
+    padding: 1px;
+    margin:0px;
+    border:0px;   
+}
+#menu a:hover{
+    background-color: rgb(202, 47, 94);
+    color: black;    
+    border-left-color: rgb(202, 47, 94);    
+}
+
+/*CAPA*/
+
+.odstittle {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+.odstittlecelular{
+    display: none;
+}
+.odstittle h1{
+    padding-top: 0;
+    border-bottom: 2px solid rgb(163, 28, 68);
+    padding-bottom: 20px;
+    font-size: 60px;
+    text-shadow: 1px 1px rgb(163, 28, 68);
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Neuton', serif;
+    
+}
+.odstittle img{
+    min-width: 500px;  
+    height: auto;   
+}
+.odstittle h2{
+    border-top: 2px solid rgb(163, 28, 68);
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 0;
+    padding-top: 3%;
+    
+    border-bottom: 0;
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px gray;
+    font-family: 'Neuton', serif;
+}
+
+/*CONTEÚDO*/
+
+.cd1 {
+    background-color: rgb(163, 28, 68);
+    text-align: center;
+    color: white;
+    
+    justify-content: space-around; 
+    padding-top: 30px;
+}
+
+.cd1 .txt1{
+    font-size: 20px;
+    padding-bottom: 3%;
+    margin: 40px 20px;
+    flex:50%;
+    
+}
+.cd1 iframe{
+    padding-top: 30px;
+}
+
+/*AS PIORES FORMAS DE TRABALHO INFANTIL*/
+
+.apfti h2{
+    border-left: 4px solid rgb(163, 28, 68);
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    padding-left: 1%;
+    text-shadow: 1px 1px gray;
+    font-family: 'Lato', sans-serif;
+}
+.apfti p{
+
+    font-size: 20px;
+    margin-left: 2%;
+
+}
+.apfti a{
+
+    text-decoration: none;
+
+}
+
+/*Formas*/
+
+.formas{
+    margin-left: 1%;
+}
+.formas p{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    margin-right: 8px;
+}
+
+/*CONSEQUÊNCIA*/
+.consequenciascelular{
+    display: none;
+}
+.cons{
+    border-left: 4px solid rgb(163, 28, 68);
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    padding-left: 1%;
+    text-shadow: 1px 1px gray;
+    font-family: 'Lato', sans-serif;
+    
+}
+.apfti h2{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.consequencias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+.consdupla{
+    width: 300px;
+}
+.consdupla p{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+}
+.consdupla img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/*SOLUÇÃO*/
+.solucaocelular{
+    display: none;
+}
+.solucao{
+    margin: 0 5%;
+    display: flex;
+    
+}
+#imagemparasolucao{
+    width: 80%;
+    margin: 2px auto;
+}
+#imagemparasolucao img{
+    max-width: 100%;
+}
+.solucao p{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+.solucao #txt1{
+    margin-right: 30px;
+    width: 50%;
+}
+.solucao #txt2{
+    width: 50%;
+}
+
+/*DENUCIE*/
+.denuncie{
+    margin: 0 5%;
+}
+.denuncie p{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+.ctcelular{
+    display: none;
+}
+.ct ul{
+    list-style: none;  
+    width: 250px;
+}
+.ct h3{
+    padding: 0;
+    
+    margin: 20px 0 0 0;
+    
+}
+.ct ul ul{
+    list-style: none;
+    display: none;
+    
+}
+.ct ul ul ul{
+    margin-left: 247px;
+    padding: 0;  
+    top:0;
+    position: absolute; 
+    width: 170px;
+}
+.ct ul ul ul li{
+    border-bottom: 1px solid rgb(163, 28, 68);
+    background-color: whitesmoke;
+    padding: 0;  
+    width: 170px;
+}
+.ct ul ul ul a{
+    text-decoration: none;
+    color:black;
+    
+}
+.ct ul ul ul a:hover{
+    text-decoration: underline;
+
+}
+.ct ul ul li:hover{
+    text-decoration: underline;
+    background-color: rgb(252, 161, 188);
+}
+.ct ul ul li{
+    border: 1px solid whitesmoke;
+    border-left: 3px solid rgb(163, 28, 68);
+    padding:0;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 2px;
+    position: relative; 
+}
+.ct ul li:hover > ul{
+    display: block;
+    background-color: rgb(252, 199, 215);
+    padding:0;
+}
+.ct #drt{
+    list-style: none;  
+    width: 410px;
+}
+.ct #as{
+    list-style: none;  
+    width: 250px;
+}
+.ct #mpt{
+    text-decoration: none;
+    color: black;
+    margin: 20px 20px 20px 40px;
+    text-decoration: underline white;
+    
+}
+.ct #mpt:hover{
+    text-decoration: underline;
+}
+/*SOBRE MIM*/
+.sb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.eu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sobremim img{
+    max-width: 130px;
+    width: auto;
+    margin: 10px 30px 10px 10px;
+    
+}
+.sobremim p{
+    
+    width: 500px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+.sobreprojeto{
+    width: 500px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: rgb(163, 28, 68);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    height: auto;
+}
+footer .rodape{
+    width: 400px;
+    margin: auto 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    color: white;
+}
+footer .rodape a{
+    text-decoration: none;
+    color:gray;
+}
+footer .rodape a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+footer h3{
+    font-family: 'Itim', cursive;
+    color:white;
+    text-align: center;
+}
+
+
+
+/*CELULAR*/
+@media(max-width: 800px){
+    /*NAVBAR*/
+    .navbar{
+        display: none;
+    }
+    .navlogo{
+        position: fixed;
+        background-color: gray;
+        width: 84%;
+        
+        padding: 0px;
+
+        right: 0;
+       
+        height: 65px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgb(61, 144, 223);
+
+        justify-content: flex-end;
+
+    }
+    .navlogo img{
+        margin-right: 15px;
+        width: 30px;           
+        z-index: 2;
+    }
+    .navbarcelular{
+        position: fixed;
+        
+        background-color: gray;
+        height: 65px;
+        width: 16%;
+        left: 0;
+        padding: 0px;
+
+        display: flex;
+        
+        align-items: center;
+        border-bottom: 1px solid rgb(61, 144, 223);
+        justify-items: center;
+        justify-content: flex-start;
+    }
+    .navbarcelular img{
+        width: 30px;   
+        margin-right: 10px;  
+        z-index: 2;
+    }
+    .navbarcelular #barra{
+        position: fixed;
+        width: 20px;
+        top:0;
+        margin-left: 5px;
+        padding:0;
+        display: inline-block;
+        list-style: none; 
+        justify-content: center;
+        
+        
+    }
+    .navbarcelular ul ul{
+        list-style: none;
+        display: none;
+        
+        padding: 0;
+        margin: 0;
+       
+    }
+    .navbarcelular #barra #subarra a{
+        text-decoration: none;
+        color: white;
+        line-height: 2;
+        padding: 5px 10px;
+        border-left: 3px solid rgb(163, 28, 68);
+    }
+    .navbarcelular #barra #subarra{
+        background-color: gray;
+        
+        margin: -20px 0 0 -10px;
+        padding:20px;  
+        width: 200px;      
+    }
+    .navbarcelular ul li:hover > ul{
+        background-color: whitesmoke;
+        display: flex; 
+        flex-direction: column;  
+        top: 0;
+    }
+   
+    .navbarcelular ul li:hover > #barraopen{
+        display: none;
+    }
+
+
+    /*CAPA*/
+
+    .odstittle{
+        display: none;
+    }
+    .odstittlecelular{
+        text-align: center;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    .odstittlecelular img{
+        
+        width: 100%;  
+        height: auto;   
+
+    }
+    .odstittlecelular h1{
+        font-size: 40px;
+        font-family: 'Neuton', serif;
+    }
+    .odstittlecelular h2{
+        margin: 50px 10px;
+        
+        font-size: 25px;
+
+        border-top: 2px solid rgb(163, 28, 68);
+        padding-right: 20%;
+        padding-left: 20%;
+        padding-bottom: 0;
+        padding-top: 3%;
+
+       
+        border-bottom: 0;
+
+        
+        
+        text-shadow: 1px 1px gray;
+        font-family: 'Neuton', serif;
+
+    }
+    /*CONTEUDO*/
+    .cd1 iframe{
+        width: 300px;
+    }
+    /*SOLUÇÃO*/
+    .solucao{
+        display: none;
+    }
+    .solucaocelular{
+        margin: 0 5%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .solucaocelular p{
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 2;
+    }
+    .solucaocelular #txt1celular{
+        margin-right: 30px;
+        width: 100%;
+    }
+    .solucaocelular #txt2celular{
+        width: 100%;
+    }
+
+    /*DENUNCIE*/
+    .ct{
+        display: none;
+    }
+    .ctcelular{
+        display: block;
+    }
+    .ctcelular ul{
+        list-style: none;  
+        width: 250px;
+    }
+    .ctcelular h3{
+        padding: 0;
+        
+        margin: 20px 0 0 0;
+      
+    }
+    .ctcelular ul ul{
+        list-style: none;
+        display: none;
+        width: 150px;
+    }
+    .ctcelular ul ul ul{
+        margin-left: 150px;
+        padding: 0;  
+        top:0;
+        position: absolute; 
+        width: 100px;
+    }
+    .ctcelular ul ul ul li{
+        border-bottom: 1px solid rgb(163, 28, 68);
+        background-color: whitesmoke;
+        padding: 0;  
+        width: 100px;
+    }
+    .ctcelular ul ul li{
+        border: 1px solid whitesmoke;
+        border-left: 3px solid rgb(163, 28, 68);
+        padding:0;
+        font-family: sans-serif;
+        font-size: 18px;
+        padding-top: 2px;
+        position: relative; 
+        width: 150px;
+    }
+    .ctcelular ul li:hover > ul{
+        display: block;
+        background-color: rgb(252, 199, 215);
+        padding:0;
+    }
+
+    .ctcelular #drt{
+        list-style: none;  
+        width: 300px;
+    }
+    .ctcelular #as{
+        list-style: none;  
+        width: 250px;
+    }
+    .ctcelular #mpt{
+        margin: 20px 20px 20px 0px;
+        width: 300px;
+    }
+
+    /*SOBRE MIM*/
+
+    .sobremim p{
+    
+        width: 300px;
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 2;
+    }
+    .sobreprojeto{
+        width: 300px;
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 2;
+    }
+    
+   
+
+    /*FOOTER*/
+
+    footer{
+        background-color: rgb(163, 28, 68);
+        
+        
+        height: auto;
+    }
+
+    footer .rodape{
+        width: 300px;
+        margin: auto 0;
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 2;
+        color: white;
+        text-align: center;
+    }
+    footer h3{
+        font-family: 'Itim', cursive;
+        color:white;
+        text-align: center;
+    }
+}
